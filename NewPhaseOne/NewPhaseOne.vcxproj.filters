@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{e64fb8b3-1c02-4a8e-850f-65194c9b38d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DerivedDataStructures">
+      <UniqueIdentifier>{a0ba9310-4864-4d8d-9f03-524c1c2b89cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseClasses">
+      <UniqueIdentifier>{a9300334-857b-4180-a8f3-9ec26f95db3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventClasses">
+      <UniqueIdentifier>{b9039b37-e1c0-4835-ba63-782050af9be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CompanyClass">
+      <UniqueIdentifier>{c3d8ebe3-33aa-45f5-9c5a-a03881ae95cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIClass">
+      <UniqueIdentifier>{41f1fa1a-23ba-4fba-b1ba-3a5c01af7ee2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="PrioNode.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedPrioQueue.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="PassengerQueue.h">
+      <Filter>DerivedDataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeHM.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Passenger.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PassengerPrioQueue.h">
+      <Filter>DerivedDataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Bus.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Station.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BusQueue.h">
+      <Filter>DerivedDataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>EventClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrival.h">
+      <Filter>EventClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Leave.h">
+      <Filter>EventClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="StationList.h">
+      <Filter>DerivedDataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="EventQueue.h">
+      <Filter>DerivedDataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>CompanyClass</Filter>
+    </ClInclude>
+    <ClInclude Include="PassengerList.h">
+      <Filter>DerivedDataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UIClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PassengerQueue.cpp">
+      <Filter>DerivedDataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeHM.cpp">
+      <Filter>BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Passenger.cpp">
+      <Filter>BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="PassengerPrioQueue.cpp">
+      <Filter>DerivedDataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Bus.cpp">
+      <Filter>BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Station.cpp">
+      <Filter>BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="BusQueue.cpp">
+      <Filter>DerivedDataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>EventClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrival.cpp">
+      <Filter>EventClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Leave.cpp">
+      <Filter>EventClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="StationList.cpp">
+      <Filter>DerivedDataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="EventQueue.cpp">
+      <Filter>DerivedDataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Company.cpp">
+      <Filter>CompanyClass</Filter>
+    </ClCompile>
+    <ClCompile Include="PassengerList.cpp">
+      <Filter>DerivedDataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UIClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
